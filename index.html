@@ -124,6 +124,20 @@
           font-size: 1.4em;
         }
       }
+      .photo {
+  text-align: center;
+  margin-top: -120px; /* pulls image closer to cake */
+}
+
+.photo img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
     </style>
   </head>
   <body>
@@ -282,9 +296,13 @@
         </path>
         <rect x="10" y="475.571" fill="#fefae9" width="180" height="4" />
       </svg>
+    <div class="photo">
+  <img src="pratik_img.jpeg" alt="Photo">
+</div>
       <div class="text">
       <h1>happy birthday!</h1>
       <p class="name">Pratik</p>
       </div>
   </body>
+
 </html>
